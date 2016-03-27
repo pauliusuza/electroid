@@ -10,3 +10,17 @@ Electroid will import the module, automatically resolve all subsequent require c
 var electroid = require("electroid");
 var myModule = electroid("./your_es6_module.js");
 ```
+
+### extracting css
+your_es6_module.js:
+```
+import styles from './styles.scss';
+console.log(styles); // object with css module mapping
+```
+
+index.js
+```
+var electroid = require("electroid");
+var myModule = electroid("./your_es6_module.js");
+console.log(myModule.__extensions__.css); //compiled css, ready to inject into HTML
+```
