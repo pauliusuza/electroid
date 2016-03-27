@@ -1,0 +1,4 @@
+.class {
+  composes: one from "./test4.css";
+  background-color: #ddd;
+}
