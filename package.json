@@ -1,12 +1,21 @@
 {
   "name": "electroid",
   "version": "1.0.0",
-  "description": "Require-like plugin loader and compiler (es6, jsx, sass, css modules)",
-  "main": "index.js",
+  "description": "Node.js require-like plugin loader and compiler (es6, jsx, sass, css modules)",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paulius Uza <pauliusuza@gmail.com>",
+  "authors": [
+    {
+      "name": "Paulius Uza",
+      "email": "pauliusuza@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauliusuza/electroid.git"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.7.4",
