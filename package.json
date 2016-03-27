@@ -1,6 +1,6 @@
 {
   "name": "electroid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js require-like plugin loader and compiler (es6, jsx, sass, css modules)",
   "main": "./index.js",
   "scripts": {
